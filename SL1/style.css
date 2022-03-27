@@ -1,0 +1,140 @@
+:root {
+	--yellow: rgb(255, 246, 168);
+	--gray: rgb(207, 207, 207);
+	--blue: rgb(176, 250, 255);
+	--purple: rgb(207, 181, 255);
+	--green: rgb(122, 255, 139);
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+td {
+	vertical-align: top;
+}
+
+p {
+	font-size: 40px;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	/* font-size: 14px; */
+	color: #000;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.text {
+	margin-bottom: 20px;
+}
+
+input[type="button"],
+input[type="submit"] {
+	background-color: var(--green);
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50vh;
+}
+
+/* Welcome */
+.welcome-body {
+	background-color: var(--gray);
+}
+
+/* Register */
+.register-body {
+	background-color: var(--blue);
+}
+
+table {
+	border-spacing: 2rem 2rem;
+}
+
+.errorMsg {
+	color: red;
+	background-color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 20%;
+	padding: 10px;
+	margin: auto;
+}
+
+/* Login */
+.login-body {
+	background-color: var(--yellow);
+}
+
+.login-form-container {
+	background-color: var(--blue);
+}
+
+/* Home */
+.home-body {
+	background-color: var(--purple);
+}
+.home-content {
+	margin: 30vh auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+/* Profile */
+.profile-body {
+	background-color: var(--purple);
+}
+
+.picture {
+	width: 200px;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.profile-content {
+	margin: 20vh auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-form {
+	padding-right: 60px;
+}

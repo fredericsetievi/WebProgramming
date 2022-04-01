@@ -47,7 +47,7 @@
             if ($_POST['tempatLahir'] == null) {
                 $errorMsg = $errorMsg . "Tempat Lahir tidak boleh kosong <br>";
             } else {
-                if (!preg_match("/^[a-zA-z]*$/", $_POST['tempatLahir'])) {
+                if (!preg_match("/^[a-zA-z ]*$/", $_POST['tempatLahir'])) {
                     $errorMsg .= "Tempat Lahir hanya boleh huruf! <br>";
                 }
             }

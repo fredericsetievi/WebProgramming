@@ -52,6 +52,7 @@ INSERT INTO `user` (`namaDepan`, `namaTengah`, `namaBelakang`, `tempatLahir`, `t
 ('COba', 'Aka', 'AJa', 'KalimatanBarat', '1999-08-06', '1546897856320156', 'Indonesia', 'hello@trash-mail.com', '089616460055', 'apel no5, kalimantan barat', '36132', './uploadFiles/messageImage_1647348500155', 'cobaaja', '$2y$10$k38SmSJMFFl9lJFB.B06j.VNBqrC2WBBb.wg9CZSq53I/koQ4lBMW'),
 ('Frederic', 'DIUPDATE', 'Setievi', 'Jakarta', '2002-01-17', '1574125698239999', 'Singapura', 'fredericsetievi@gmail.com', '08961649999', 'Orchard road, Singapore', '39999', './uploadFiles/1648485561090.png', 'frederic', '$2y$10$jae8gm6H6NhmYm1HmrL.YuQsifXsG8/nXN72Rd6ihehGHtSF7ct.q'),
 ('Irene', 'Iren', 'Setievi', 'jambi', '2005-08-08', '1546565656565656', 'Indonesia', 'fredericsetievi@gmail.com', '089616406600', 'kutilang', '31652', './uploadFiles/SDLC.png', 'irenesetievi', '$2y$10$FBDH2VRq2vhjeGb1kYXFg.sZCt7zWTn91W/JoNHNzACToPulMqWfS');
+/* for each username, the password is the same as the username. it is already hashed to encrypt the password */
 
 --
 -- Indexes for dumped tables
